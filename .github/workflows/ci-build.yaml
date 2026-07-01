@@ -12,7 +12,7 @@ jobs:
     container: python:3.9-slim
     services:
       postgres: 
-        image: postgres-alpine
+        image: postgres:alpine
         ports:
           - 5432:5432
         env:
